@@ -6,7 +6,7 @@ listaNaoPrimos = []
 j = 0
 k = 0
 
-tamanhoLista = int(input("Ate que numero devo procurar os primos? "))
+tamanhoLista = int(input("Until which number must I search for the primes? "))
 
 for j in range (1, tamanhoLista+1):
     
@@ -33,9 +33,10 @@ for j in range (1, tamanhoLista+1):
         
 
 
-print("Lista dos numeros primos ate %d = " % (tamanhoLista), listaPrimos)
-print("Lista dos numeros nao primos ate %d = " % (tamanhoLista), listaNaoPrimos)
+print("Lista of prime numbers until %d = " % (tamanhoLista), listaPrimos)
+print("Lista of non-prime numbers until %d = " % (tamanhoLista), listaNaoPrimos)
 
+#Prime numbers until 100:
 
 #2 3 5 7 11 13 17 19 23 29
 #31 37 41 43 47 53 59 61 67 71
