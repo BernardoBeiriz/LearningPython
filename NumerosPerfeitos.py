@@ -1,10 +1,10 @@
-#Numeros Perfeitos
+#Perfect Numbers
 
 listaPerfeitos = []
 listaNaoPerfeitos = []
 listaDivisoresN = []
 
-tamanhoLista = int(input("Ate que numero devo procurar os perfeitos? "))
+tamanhoLista = int(input("Until which number must i search for the perfect ones?))
 
 for a in range (1, tamanhoLista+1):
 
@@ -18,7 +18,7 @@ for a in range (1, tamanhoLista+1):
 
         resto = a%b
         
-        #print("resto de %d por %d = %d" % (a, b, resto))
+        #print("remainder of %d divided by %d = %d" % (a, b, resto))
 
         if resto == 0:
             
@@ -37,11 +37,11 @@ for a in range (1, tamanhoLista+1):
 
                 listaNaoPerfeitos.append(a)
                 
-print("Lista dos numeros perfeitos ate %d =" % (tamanhoLista), listaPerfeitos)
-print("Lista dos numeros nao perfeitos ate %d =" % (tamanhoLista), listaNaoPerfeitos)
+print("List of perfect numbers until %d =" % (tamanhoLista), listaPerfeitos)
+print("List of non perfect numbers until %d =" % (tamanhoLista), listaNaoPerfeitos)
         
 '''
-Dez menores
+Ten smallest perfect numbers
 6
 28
 496 
