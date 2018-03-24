@@ -19,7 +19,7 @@ for j in range (1, tamanhoLista+1):
         
         resto = j%k
         
-        #print("resto de %d por %d = %d" % (j, k, resto))
+        #print("remainder of %d divided by %d = %d" % (j, k, resto))
 
         if resto == 0:
             contador += 1
@@ -33,8 +33,8 @@ for j in range (1, tamanhoLista+1):
         
 
 
-print("Lista of prime numbers until %d = " % (tamanhoLista), listaPrimos)
-print("Lista of non-prime numbers until %d = " % (tamanhoLista), listaNaoPrimos)
+print("List of prime numbers until %d = " % (tamanhoLista), listaPrimos)
+print("List of non-prime numbers until %d = " % (tamanhoLista), listaNaoPrimos)
 
 #Prime numbers until 100:
 
